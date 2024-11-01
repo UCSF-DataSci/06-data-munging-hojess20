@@ -1,0 +1,79 @@
+2024-10-31 18:59:47,930 - INFO - Loaded in messy data
+2024-10-31 18:59:47,958 - INFO - Removed duplicates: 2950 rows removed.
+2024-10-31 18:59:47,964 - INFO - Removed missing values in data frame. Missing values per column:
+income_groups    6306
+age              6223
+gender           5907
+year             6202
+population       6340
+dtype: int64
+2024-10-31 18:59:47,980 - INFO - Data types:
+income_groups     object
+age              float64
+gender           float64
+year             float64
+population       float64
+dtype: object 
+Updated gender data type:
+income_groups      object
+age               float64
+gender           category
+year              float64
+population        float64
+dtype: object
+2024-10-31 18:59:48,001 - INFO - Remapped income group typos to their corresponding non-typo income group. Unique values in income_groups: ['high_income' 'low_income' 'lower_middle_income' 'upper_middle_income']
+2024-10-31 18:59:48,007 - INFO - Removed gender == 3 values and filtered out years beyond 2024
+2024-10-31 18:59:48,019 - INFO - Filtered out population values outside of the lower and upper boundaries for outliers. Removed 876 rows.
+2024-10-31 19:02:45,124 - INFO - Loaded in messy data
+2024-10-31 19:02:45,150 - INFO - Removed duplicates: 2950 rows removed.
+2024-10-31 19:02:45,154 - INFO - Removed missing values in data frame. Missing values per column:
+income_groups    6306
+age              6223
+gender           5907
+year             6202
+population       6340
+dtype: int64
+2024-10-31 19:02:45,170 - INFO - Data types:
+income_groups     object
+age              float64
+gender           float64
+year             float64
+population       float64
+dtype: object 
+Updated gender data type:
+income_groups      object
+age               float64
+gender           category
+year              float64
+population        float64
+dtype: object
+2024-10-31 19:02:45,192 - INFO - Remapped income group typos to their corresponding non-typo income group. Unique values in income_groups: ['high_income' 'low_income' 'lower_middle_income' 'upper_middle_income']
+2024-10-31 19:02:45,197 - INFO - Removed gender == 3 values and filtered out years beyond 2024
+2024-10-31 19:02:45,201 - INFO - Filtered out population values outside of the lower and upper boundaries for outliers. Removed 876 rows.
+2024-10-31 19:06:53,811 - INFO - Loaded in messy data
+2024-10-31 19:06:53,839 - INFO - Removed duplicates: 2950 rows removed.
+2024-10-31 19:06:53,844 - INFO - Removed missing values in data frame. Missing values per column:
+income_groups    6306
+age              6223
+gender           5907
+year             6202
+population       6340
+dtype: int64
+2024-10-31 19:06:53,861 - INFO - Data types:
+income_groups     object
+age              float64
+gender           float64
+year             float64
+population       float64
+dtype: object 
+Updated gender data type:
+income_groups      object
+age               float64
+gender           category
+year              float64
+population        float64
+dtype: object
+2024-10-31 19:06:53,882 - INFO - Remapped income group typos to their corresponding non-typo income group. Unique values in income_groups: ['high_income' 'low_income' 'lower_middle_income' 'upper_middle_income']
+2024-10-31 19:06:53,886 - INFO - Removed gender == 3 values and filtered out years beyond 2024
+2024-10-31 19:06:53,891 - INFO - Filtered out population values outside of the lower and upper boundaries for outliers. Removed 876 rows.
+2024-10-31 19:06:53,977 - INFO - Cleaned data saved to cleaned_population_data.csv
